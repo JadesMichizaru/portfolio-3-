@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="id" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website Resmi Sekolah Modern Terpadu. Menjadi pusat keunggulan pendidikan vokasi dengan fasilitas berstandar industri, teaching factory, dan lulusan terbaik.">
+    <meta name="keywords" content="Sekolah Modern, SMK PK, Pendidikan Vokasi, PPDB 2026, Rekayasa Perangkat Lunak, Teknik Jaringan, DKV, BKK, Teaching Factory">
+    <meta name="author" content="Michizaru Studio">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sekolah Modern Terpadu | Masa Depan Dimulai dari Sini">
+    <meta property="og:description" content="Pusat keunggulan pendidikan vokasi dengan fasilitas kelas dunia.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200">
+
+    <title>Sekolah Modern Terpadu | Portofolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    animation: {
+                        blob: "blob 10s infinite",
+                        marquee: "marquee 20s linear infinite",
+                        bounceSlow: "bounce 3s infinite",
+                    },
+                    keyframes: {
+                        blob: {
+                            "0%, 100%": { transform: "translate(0px, 0px) scale(1)" },
+                            "33%": { transform: "translate(30px, -50px) scale(1.1)" },
+                            "66%": { transform: "translate(-20px, 20px) scale(0.9)" },
+                        },
+                        marquee: {
+                            "0%": { transform: "translateX(100%)" },
+                            "100%": { transform: "translateX(-100%)" }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            transition: background-color 0.5s ease, color 0.5s ease;
+        }
+
+        /* Glassmorphism Panel */
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.12);
+        }
+
+        .dark .glass-panel {
+            background: rgba(0, 0, 0, 0.35);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+        }
+
+        /* Hover Tilt & Image Zoom */
+        .hover-tilt {
+            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
+        }
+        .hover-tilt:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Sembunyikan scrollbar bawaan */
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-100 overflow-x-hidden font-sans pb-24 relative min-h-screen">
+
+    <div class="fixed inset-0 w-full h-full z-[-1] overflow-hidden pointer-events-none">
+        <div class="absolute top-[-10%] left-[-10%] w-96 h-96 bg-purple-400 dark:bg-purple-900 rounded-full mix-blend-multiply filter blur-3xl opacity-60 animate-blob"></div>
+        <div class="absolute top-[-10%] right-[-10%] w-96 h-96 bg-sky-300 dark:bg-sky-900 rounded-full mix-blend-multiply filter blur-3xl opacity-60 animate-blob" style="animation-delay: 2s;"></div>
+        <div class="absolute bottom-[-20%] left-[20%] w-96 h-96 bg-pink-300 dark:bg-pink-900 rounded-full mix-blend-multiply filter blur-3xl opacity-60 animate-blob" style="animation-delay: 4s;"></div>
+    </div>
+
+    <div class="w-full glass-panel !rounded-none !border-x-0 !border-t-0 py-2 flex items-center sticky top-0 z-50 overflow-hidden">
+        <div class="px-5 font-bold text-xs bg-indigo-600 text-white py-1.5 rounded-r-lg shadow-lg z-20">BREAKING</div>
+        <div class="flex-1 overflow-hidden whitespace-nowrap">
+            <div class="inline-block animate-marquee text-sm font-semibold">
+                <span class="mx-8"><i class="fa-solid fa-fire text-orange-500 mr-2"></i>PPDB Gelombang 1 Dibuka</span>
+                <span class="mx-8"><i class="fa-solid fa-briefcase text-green-500 mr-2"></i>15 Lowongan Kerja Baru di BKK</span>
+                <span class="mx-8"><i class="fa-solid fa-trophy text-yellow-500 mr-2"></i>Tim Sekolah Meraih Juara 1 Nasional</span>
+            </div>
+        </div>
+    </div>
+
+    <nav class="sticky top-10 z-40 mx-auto max-w-6xl glass-panel rounded-full px-8 py-4 flex justify-between items-center mt-6 mb-16 shadow-2xl transition-all">
+        <a href="#" class="font-extrabold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-500 dark:from-indigo-400 dark:to-purple-300 tracking-tight hover:scale-105 transition-transform">
+            Michizaru<span class="text-gray-800 dark:text-white">Edu.</span>
+        </a>
+        <div class="hidden md:flex items-center gap-8 font-bold text-sm">
+            <a href="#" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Home</a>
+            <a href="#" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Programs</a>
+            <a href="#" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Facilities</a>
+            <div class="w-[2px] h-6 bg-gray-300 dark:bg-gray-600"></div>
+            <button id="themeToggleBtn" class="w-10 h-10 rounded-full flex items-center justify-center bg-white/40 dark:bg-black/40 hover:bg-white/70 dark:hover:bg-black/70 border border-gray-200 dark:border-gray-700 transition-all hover:scale-110 hover:rotate-12 shadow-sm">
+                <i id="themeIcon" class="fa-solid fa-moon text-indigo-600 text-lg"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-6 max-w-6xl">
+        <section class="glass-panel rounded-[2.5rem] p-10 md:p-16 mb-24 flex flex-col lg:flex-row items-center gap-12 relative overflow-hidden group">
+            <div class="absolute top-[-20%] left-[-10%] w-96 h-96 bg-indigo-500/20 blur-[100px] rounded-full pointer-events-none"></div>
+
+            <div class="flex-1 space-y-8 relative z-10">
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-panel text-sm font-bold text-indigo-700 dark:text-indigo-300">
+                    <i class="fa-solid fa-award text-yellow-500"></i> Sekolah Pusat Keunggulan
+                </div>
+                <h1 class="text-5xl md:text-6xl font-black leading-tight tracking-tight">
+                    Desain Masa Depan <br/> Anda dari <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-sky-500 dark:from-purple-400 dark:to-sky-300">Sini.</span>
+                </h1>
+                <p class="text-lg opacity-80 leading-relaxed font-medium max-w-lg">
+                    Agensi pendidikan inovatif yang mengintegrasikan teknologi modern, teaching factory terdepan, dan ekosistem industri.
+                </p>
+                <div class="flex flex-wrap gap-4 pt-2">
+                    <button class="bg-indigo-600 text-white px-8 py-4 rounded-full font-bold shadow-lg shadow-indigo-500/30 hover:shadow-indigo-500/60 hover:-translate-y-1 transition-all">
+                        Daftar PPDB <i class="fa-solid fa-arrow-right ml-2"></i>
+                    </button>
+                    <button class="glass-panel px-8 py-4 rounded-full font-bold hover:bg-white/40 dark:hover:bg-white/10 hover:-translate-y-1 transition-all">
+                        Virtual Tour 360°
+                    </button>
+                </div>
+            </div>
+
+            <div class="flex-1 w-full relative">
+                <div class="w-full h-[450px] rounded-3xl bg-cover bg-center shadow-2xl border-4 border-white/40 dark:border-white/10 transform transition-transform duration-700 group-hover:scale-[1.03]" style="background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800');">
+                    <div class="absolute inset-0 bg-gradient-to-tr from-indigo-900/40 to-transparent"></div>
+                </div>
+                <div class="absolute -bottom-6 -left-6 glass-panel p-4 rounded-2xl flex items-center gap-4 animate-bounceSlow shadow-xl">
+                    <div class="w-12 h-12 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center text-green-600 dark:text-green-300 text-xl">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-sm">Akreditasi A</h4>
+                        <p class="text-xs opacity-80">Standar Internasional</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-24">
+            <h2 class="text-4xl font-black mb-10 text-center">Fokus Akademik</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="group relative h-[350px] rounded-3xl overflow-hidden glass-panel cursor-pointer hover-tilt">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=600" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+                    <div class="absolute inset-0 p-8 flex flex-col justify-end text-white z-10">
+                        <i class="fa-solid fa-laptop-code text-4xl mb-4 text-blue-400 group-hover:scale-110 transition-transform origin-left"></i>
+                        <h3 class="text-2xl font-bold mb-2">Software Engineering</h3>
+                        <p class="text-sm text-gray-300 opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">Pengembangan aplikasi modern dan arsitektur cloud.</p>
+                    </div>
+                </div>
+                <div class="group relative h-[350px] rounded-3xl overflow-hidden glass-panel cursor-pointer hover-tilt">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=600" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+                    <div class="absolute inset-0 p-8 flex flex-col justify-end text-white z-10">
+                        <i class="fa-solid fa-server text-4xl mb-4 text-purple-400 group-hover:scale-110 transition-transform origin-left"></i>
+                        <h3 class="text-2xl font-bold mb-2">Network & IoT</h3>
+                        <p class="text-sm text-gray-300 opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">Infrastruktur jaringan tingkat lanjut dan Cyber Security.</p>
+                    </div>
+                </div>
+                <div class="group relative h-[350px] rounded-3xl overflow-hidden glass-panel cursor-pointer hover-tilt">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&q=80&w=600" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+                    <div class="absolute inset-0 p-8 flex flex-col justify-end text-white z-10">
+                        <i class="fa-solid fa-pen-nib text-4xl mb-4 text-pink-400 group-hover:scale-110 transition-transform origin-left"></i>
+                        <h3 class="text-2xl font-bold mb-2">Visual Arts</h3>
+                        <p class="text-sm text-gray-300 opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">Animasi, Sinematografi, dan UI/UX Design.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-24">
+            <div class="flex items-end justify-between mb-10">
+                <div>
+                    <h2 class="text-4xl font-black mb-2">Fasilitas Ekosistem</h2>
+                    <p class="opacity-80 font-medium">Dirancang layaknya lingkungan agensi profesional.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-[250px]">
+                <div class="md:col-span-2 md:row-span-2 rounded-3xl overflow-hidden relative group hover-tilt shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors"></div>
+                    <div class="absolute bottom-6 left-6 text-white"><h3 class="text-2xl font-bold backdrop-blur-md bg-white/20 px-4 py-2 rounded-xl">Lab Artificial Intelligence</h3></div>
+                </div>
+                <div class="rounded-3xl overflow-hidden relative group hover-tilt shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&q=80&w=400" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black/40"></div>
+                    <div class="absolute bottom-4 left-4 text-white"><h3 class="font-bold backdrop-blur-md bg-white/20 px-3 py-1 rounded-lg text-sm">Library</h3></div>
+                </div>
+                <div class="rounded-3xl overflow-hidden relative group hover-tilt shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1576624302996-ed7f83b19409?auto=format&fit=crop&q=80&w=400" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black/40"></div>
+                    <div class="absolute bottom-4 left-4 text-white"><h3 class="font-bold backdrop-blur-md bg-white/20 px-3 py-1 rounded-lg text-sm">Sport Center</h3></div>
+                </div>
+                <div class="md:col-span-2 rounded-3xl overflow-hidden relative group hover-tilt shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black/40"></div>
+                    <div class="absolute bottom-6 left-6 text-white"><h3 class="font-bold backdrop-blur-md bg-white/20 px-4 py-2 rounded-xl">Coworking Space</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <div id="github-sections-container">
+            </div>
+
+    </main>
+
+    <div class="fixed bottom-6 right-6 z-50 flex flex-col items-end">
+        <div id="chatWindow" class="glass-panel w-80 h-[450px] mb-4 rounded-3xl flex flex-col overflow-hidden shadow-2xl transition-all origin-bottom-right hidden">
+            <div class="bg-indigo-600 text-white p-4 flex justify-between items-center">
+                <span class="font-bold tracking-wide"><i class="fa-solid fa-robot mr-2"></i> Michi AI</span>
+                <button id="closeChat" class="hover:text-gray-300 font-bold">✕</button>
+            </div>
+            <div id="chatBody" class="flex-1 p-4 overflow-y-auto space-y-3 flex flex-col bg-white/20 dark:bg-black/20 no-scrollbar">
+                <div class="bg-white/80 dark:bg-gray-800 text-gray-800 dark:text-white p-3 rounded-2xl rounded-tl-none text-sm shadow-sm self-start max-w-[85%]">
+                    Halo! Saya AI Asisten. Ada yang bisa dibantu mengenai profil agensi sekolah kami? (Kuota request: 5)
+                </div>
+            </div>
+            <form id="chatForm" class="p-3 bg-white/40 dark:bg-black/40 backdrop-blur-md border-t border-white/50 dark:border-gray-700 flex gap-2">
+                <input type="text" id="chatInput" placeholder="Ketik pesan..." class="flex-1 bg-white/70 dark:bg-gray-800 dark:text-white border-none rounded-full px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500" autocomplete="off">
+                <button type="submit" class="bg-indigo-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold hover:bg-indigo-700 transition-colors"><i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+        <button id="toggleChatBtn" class="w-14 h-14 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-full shadow-[0_0_20px_rgba(99,102,241,0.5)] flex items-center justify-center text-2xl hover:scale-110 transition-transform relative">
+            <i class="fa-solid fa-message"></i>
+            <span class="absolute top-0 right-0 w-3 h-3 bg-red-500 rounded-full border-2 border-white animate-pulse"></span>
+        </button>
+    </div>
+
+    <script>
+        // 1. Logika Tema (Dark/Light Mode)
+        const themeToggleBtn = document.getElementById('themeToggleBtn');
+        const themeIcon = document.getElementById('themeIcon');
+        const htmlElement = document.documentElement;
+
+        const updateThemeUI = (isDark) => {
+            if (isDark) {
+                htmlElement.classList.add('dark');
+                themeIcon.classList.replace('fa-moon', 'fa-sun');
+                themeIcon.classList.replace('text-indigo-600', 'text-yellow-400');
+            } else {
+                htmlElement.classList.remove('dark');
+                themeIcon.classList.replace('fa-sun', 'fa-moon');
+                themeIcon.classList.replace('text-yellow-400', 'text-indigo-600');
+            }
+        };
+
+        if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            updateThemeUI(true);
+        }
+
+        themeToggleBtn.addEventListener('click', () => {
+            const isCurrentlyDark = htmlElement.classList.contains('dark');
+            updateThemeUI(!isCurrentlyDark);
+            localStorage.setItem('theme', !isCurrentlyDark ? 'dark' : 'light');
+        });
+
+        // 2. Logika Chatbot dengan Proteksi (Badword, Injection, Limit)
+        const chatWindow = document.getElementById('chatWindow');
+        const toggleChatBtn = document.getElementById('toggleChatBtn');
+        const closeChat = document.getElementById('closeChat');
+        const chatForm = document.getElementById('chatForm');
+        const chatInput = document.getElementById('chatInput');
+        const chatBody = document.getElementById('chatBody');
+
+        toggleChatBtn.addEventListener('click', () => chatWindow.classList.remove('hidden'));
+        closeChat.addEventListener('click', () => chatWindow.classList.add('hidden'));
+
+        // Konfigurasi Proteksi
+        let requestCount = 0;
+        const MAX_REQUESTS = 5;
+        const BADWORDS = ['bodoh', 'jelek', 'kasar1', 'kasar2'];
+        const INJECTION_KEYWORDS = ['ignore', 'system prompt', 'bypassing', 'abaikan instruksi'];
+
+        const appendMessage = (text, isBot) => {
+            const msgDiv = document.createElement('div');
+            msgDiv.className = `p-3 rounded-2xl text-sm shadow-sm max-w-[85%] ${
+                isBot ? 'bg-white/80 dark:bg-gray-800 text-gray-800 dark:text-white self-start rounded-tl-none'
+                      : 'bg-indigo-600 text-white self-end rounded-tr-none'
+            }`;
+            msgDiv.textContent = text;
+            chatBody.appendChild(msgDiv);
+            chatBody.scrollTop = chatBody.scrollHeight;
+        };
+
+        chatForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const text = chatInput.value.trim();
+            if (!text) return;
+
+            appendMessage(text, false);
+            chatInput.value = '';
+
+            // Cek Limit
+            if (requestCount >= MAX_REQUESTS) {
+                setTimeout(() => appendMessage("Limit API tercapai. Maksimal 5 request per sesi.", true), 500);
+                return;
+            }
+
+            const lowerText = text.toLowerCase();
+
+            // Cek Badword
+            if (BADWORDS.some(word => lowerText.includes(word))) {
+                setTimeout(() => appendMessage("Pesan ditolak: Mengandung kata yang tidak pantas.", true), 500);
+                return;
+            }
+
+            // Cek Prompt Injection
+            if (INJECTION_KEYWORDS.some(kw => lowerText.includes(kw))) {
+                setTimeout(() => appendMessage("Peringatan: Aktivitas injeksi mencurigakan terdeteksi.", true), 500);
+                return;
+            }
+
+            // Valid, tambahkan count dan balas simulasi
+            requestCount++;
+            setTimeout(() => {
+                appendMessage(`Terima kasih. Terkait "${text}", ini adalah balasan simulasi AI. (Sisa request: ${MAX_REQUESTS - requestCount})`, true);
+            }, 800);
+        });
+    </script>
+</body>
+</html>
