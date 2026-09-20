@@ -46,7 +46,13 @@
     ::-webkit-scrollbar-track { background: #0f172a; }
     ::-webkit-scrollbar-thumb { background: #00f3ff; border-radius: 4px; }
 
-    html { scroll-behavior: smooth; }
+    html { 
+      scroll-behavior: smooth; 
+      max-width: 100%;
+      overflow-x: hidden !important;
+      position: relative;
+    }
+    
 
     .glass-panel {
       background: rgba(255, 255, 255, 0.05);
